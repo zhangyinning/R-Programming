@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function initialize two objects, x and m. x is the matrix to be inversed. m is the result of the inversed matrix.This function also defines four functions for objects, set(), get(), setSolve(), getSolve(). set() and get() set and get the value of x; setSolve() and getSolve() set and get the value of m. This function returns a list of functions to the parent environment. 
 
 makeCacheMatrix <- function(x = matrix()) {
   m<- NULL
